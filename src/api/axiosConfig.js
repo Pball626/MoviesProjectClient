@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:8080/api/v1/movies",
-    headers: {"ngrok-skip-browser-warning": "true"}
+    baseURL: "http://localhost:8080",
+    headers: {"skip-browser-warning": "true"}
 });
